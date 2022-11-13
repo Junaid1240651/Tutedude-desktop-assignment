@@ -1,38 +1,1057 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Playfair+Display&family=Poppins&family=Sacramento&family=Urbanist&display=swap');
+*{
+  margin: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.desktop{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 1366px; 
+  height: 730px;
+background: #FFFFFF;
+}
+.headerr{
+  position: absolute;
+  
+width: 1366px;
+height: 73.03px;
+left: 0px;
+top: 0px;
+bottom: 0px;
+right: 0px;
+
+filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));
+}
+.navbar{
+  position: absolute;
+  height: 73.03px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  
+  background: #FFFFFF;
+}
+.heroImage
+{
+  position: absolute;
+width: 1366px;
+height: 73px;
+left: 0px;
+top: 0px;
+
+}
+
+.logo{
+  position: absolute;
+width: 160px;
+height: 63px;
+left: 74px;
+top: 6px;
+}
+.tudeDude{
+  position: absolute;
+width: 160px;
+height: 63px;
+top: 6px;
+
+background: url(./images/TuteDude.png);
+}
+
+.nav{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+
+position: absolute;
+width: 519px;
+height: 24px;
+left: 766px;
+top: 25px;
+}
+.assignment{
+  margin: 0px; 
+
+  width: 140px;
+height: 22px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.5%;
+/* or 22px */
+
+text-align: center;
+
+color: rgba(128, 0, 128, 0.25);
+}
+.chat{
+  margin: 0px; 
+  width: 156px;
+height: 22px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.5%;
+/* or 22px */
+
+text-align: center;
+
+color: rgba(128, 0, 128, 0.25);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.profile{
+  display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 4px;
+
+width: 167px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.profileImage{
+  position: absolute;
+
+  margin-top: 2px;
+  margin-left: 2px;
+    width: 20px;
+    height: 20px;
+  
+  /* Inside auto layout */
+
+}
+.profileImageView{
+  width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.profileName{
+  width: 111px;
+height: 22px;
+margin: 0px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.5%;
+/* or 22px */
+
+text-align: center;
+
+color: #800080;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.keyarrow{
+  width: 24px;
+  height: 24px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.arrow{
+  position: absolute;
+  width: 12px;
+  height: 7.41px;
+  margin-top: 8px;
+  margin-left: 6px;;
+}
+
+ .referAndEarn{
+  position: absolute;
+width: 1366px;
+height: 76px;
+left: 0px;
+top: 73px;
+
+background: #FFFFFF;
+} 
+.referAndEarnText{
+  position: absolute;
+  width: 266px;
+  height: 21px;
+  left: 187px;
+top: 13px;
+  
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.yourreffercode{
+  position: absolute;
+  width: 153px;
+  height: 79px;
+  left: 187px;
+  top: 151px;
+}
+.reffercodeText{
+  /* position: absolute; */
+  width: 150px;
+  height: 24px;
+  left: 187px;
+  top: 151px;
+  margin: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  
+  color: #800080;
+}
+.reffercodeView{
+  position: absolute;
+  box-sizing: border-box;
+
+  /* position: absolute; */
+  width: 153px;
+  height: 50px;
+  top: 27px;
+  
+  border: 1.5px solid #DFDFDF;
+  border-radius: 10px;
+}
+.reffercode{
+  position: absolute;
+  width: 124px;
+  height: 24px;
+  left: 12px;
+  top: 11px;
+  /* bottom: 0px; */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  letter-spacing: 0.75em;
+  
+  color: #000000;
+
+  
+}
+.dashboardView{
+  position: absolute;
+width: 145px;
+height: 85px;
+left: 1034px;
+top: 151px;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+border-radius: 20px;
+}
+.balanceView{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 105px;
+height: 45px;
+left: 20px;
+top: 20px;
+}
+.walletBalance{
+  
+width: 105px;
+height: 21px;
+margin: 0px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #800080;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.mrp{
+  width: 45px;
+height: 24px;
+margin: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.friends{
+  margin: 0px;
+position: absolute;
+width: 241px;
+height: 30px;
+left: 189px;
+top: 296px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #800080;
+}
+.cartscroableview{
+  position: absolute;
+  width: 992px;
+  height: 228px;
+  left: 187px;
+  top: 346px;
+  overflow-x:hidden;
+  
+}
+.cardview{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 1114px;
+height: 228px;
+left: 0px;
+top: 0px;
+}
+.card{
+  width: 358px;
+height: 228px;
+
+/* NEW GRADIENT 2 */
+
+background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+border-radius: 20px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.refferalAmountView{
+  position: absolute;
+width: 195px;
+height: 36px;
+left: 20px;
+top: 176px;
+}
+
+.refferalAmount{
+
+position: absolute;
+/* width: 130px; */
+height: 24px;
+/* left: 20px; */
+/* right: 0px; */
+top: 5px;
+margin: 0px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.amount{
+  position: absolute;
+width: 55px;
+height: 36px;
+left: 139px;
+/* top: 176px; */
+margin: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.javaView{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+gap: 10px;
+align-items: center;
+position: absolute;
+width: 53px;
+height: 29px;
+left: 172px;
+top: 124px;
+
+border: 1.5px solid #EEAEAE;
+border-radius: 20px;
+}
+.java{
+  margin: 0px;
+width: 35px;
+height: 21px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.IllustratorView{
+  box-sizing: border-box;
+
+  /* Auto layout */
+text-align: center;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2px 8px;
+  gap: 10px;
+  
+  position: absolute;
+  width: 84px;
+  height: 29px;
+  left: 199px;
+  top: 85px;
+  
+  border: 1.5px solid #EEAEAE;
+  border-radius: 20px;
+}
+.Illustrator{
+  width: 66px;
+height: 21px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* line-height: 21px; */
+/* identical to box height */
+
+
+color: #FFFFFF;
+margin: 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}.mernView{
+  box-sizing: border-box;
+
+/* Auto layout */
+/* align-items: center;
+text-align: center; */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+/* padding: 4px 9px; */
+padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+gap: 10px;
+
+position: absolute;
+width: 56px;
+height: 29px;
+left: 106px;
+top: 124px;
+
+border: 1.5px solid #EEAEAE;
+border-radius: 20px;
+}
+.mern{
+  
+width: 38px;
+height: 21px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+margin: 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.photoshopView{
+ 
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 9px;
+gap: 10px;
+
+position: absolute;
+width: 93px;
+height: 29px;
+left: 96px;
+top: 85px;
+
+border: 1.5px solid #EEAEAE;
+border-radius: 20px;
+}
+.photoshop{
+  width: 75px;
+  height: 21px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.pythonView{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+/* padding: 4px 9px; */
+padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+gap: 10px;
+
+position: absolute;
+width: 66px;
+height: 29px;
+left: 30px;
+top: 124px;
+
+border: 1.5px solid #EEAEAE;
+border-radius: 20px;
+}
+.python{
+  width: 48px;
+height: 21px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+line-height: 21px;
+/* identical to box height */
+
+margin: 0px;
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.uiuxView{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 4px 9px;
+  gap: 10px;
+  
+  position: absolute;
+  width: 56px;
+  height: 29px;
+  left: 30px;
+  top: 85px;
+  
+  border: 1.5px solid #EEAEAE;
+  border-radius: 20px;
+}
+.uiux{
+  width: 38px;
+  height: 21px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.coursesEnrolled{
+  position: absolute;
+width: 141px;
+height: 21px;
+left: 20px;
+top: 54px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+margin: 0px;
+
+color: #FFFFFF;
+}
+.card1date{
+  position: absolute;
+width: 83px;
+height: 21px;
+left: 255px;
+top: 23px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+margin: 0px;
+
+color: #FFFFFF;
+}
+.card1name{
+
+  position: absolute;
+  width: 124px;
+  height: 24px;
+  left: 20px;
+  top: 20px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  margin: 0px;
+  color: #FFFFFF;
+}
+.termAndCondition{
+  position: absolute;
+  width: 159px;
+  height: 24px;
+  left: 187px;
+  top: 634px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  margin: 0px;
+  
+  color: #800080;
 }
 
-.App-link {
-  color: #61dafb;
+.cartscroableview2{
+  position: absolute;
+width: 266px;
+height: 71px;
+margin-left: 30px;
+top: 82px;
+overflow-y:scroll;
+}
+.CplusolusView{
+
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 3px 9px;
+gap: 10px;
+align-items: center;
+position: absolute;
+width: 53px;
+height: 29px;
+margin-left: 235px;
+top: 124px;
+
+border: 1.5px solid #EEAEAE;
+border-radius: 20px;
+}
+.Cplusolus{
+  margin: 0px;
+  width: 30px;
+height: 21px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.javaView2{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 3px;
+      padding-right: 9px;
+      padding-bottom: 4px;
+      padding-left: 7px;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
+  width: 53px;
+  height: 29px;
+  margin-left: 172px;
+  top: 124px;
+  
+  border: 1.5px solid #EEAEAE;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.IllustratorView2{
+  box-sizing: border-box;
+
+  /* Auto layout */
+text-align: center;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 3px 9px;
+  gap: 10px;
+  
+  position: absolute;
+  width: 84px;
+  height: 29px;
+  margin-left: 199px;
+  top: 85px;
+  
+  border: 1.5px solid #EEAEAE;
+  border-radius: 20px;
+
+}
+
+.mernView2{
+  box-sizing: border-box;
+
+/* Auto layout */
+/* align-items: center;
+text-align: center; */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+/* padding: 4px 9px; */
+padding: 3px 9px;
+gap: 10px;
+
+position: absolute;
+width: 56px;
+height: 29px;
+margin-left: 106px;
+top: 124px;
+
+border: 1.5px solid #EEAEAE;
+border-radius: 20px;
+}
+
+.photoshopView2{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+padding: 4px 9px;
+gap: 10px;
+
+position: absolute;
+width: 93px;
+height: 29px;
+margin-left: 96px;
+top: 85px;
+
+border: 1.5px solid #EEAEAE;
+border-radius: 20px;
+}
+
+.pythonView2{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+/* padding: 4px 9px; */
+padding: 3px 9px;
+gap: 10px;
+
+position: absolute;
+width: 66px;
+height: 29px;
+margin-left: 30px;
+top: 124px;
+
+border: 1.5px solid #EEAEAE;
+border-radius: 20px;
+}
+
+.uiuxView2{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+
+  padding: 4px 9px;
+  gap: 10px;
+  
+  position: absolute;
+  width: 56px;
+  height: 29px;
+  margin-left: 30px;
+  top: 85px;
+  
+  border: 1.5px solid #EEAEAE;
+  border-radius: 20px;
+}
+.refferalAmountView2{
+  position: absolute;
+  width: 195px;
+  height: 36px;
+  top: 176px;
+  margin-left: 20px;
+
+}
+.refferalAmount2{
+  position: absolute;
+width: 130px;
+height: 24px;
+left: 0px;
+top: 5px;
+margin: 0px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.coursesEnrolled2{
+  position: absolute;
+width: 148px;
+height: 21px;
+padding-left: 20px;
+top: 54px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+margin: 0px;
+
+color: #FFFFFF;
+}
+.card2date{
+  margin: 0px;
+  
+  color: #FFFFFF; 
+  position: absolute;
+  width: 83px;
+  height: 21px;
+left: 630px;  top: 23px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  margin: 0px;
+  
+  color: #FFFFFF;
+}
+.card2name{
+  position: absolute;
+  width: 134px;
+  height: 24px;
+  padding-left: 20px;
+  top: 20px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  margin: 0px;
+  color: #FFFFFF;
+}
+
+.cardd{
+  width: 235px;
+height: 228px;
+
+/* NEW GRADIENT 2 */
+
+background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+border-radius: 20px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
